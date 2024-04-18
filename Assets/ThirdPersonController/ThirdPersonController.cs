@@ -27,9 +27,9 @@ public class ThirdPersonController : MonoBehaviour
     float runningFov;
 
     [Header("Settings Movement")]
-    [SerializeField] private float walkingSpeed = 2.5f;
-    [SerializeField] private float runningSpeed = 4f;
-    [SerializeField] private float jumpHeight = 1.6f;
+    [SerializeField] private float walkingSpeed = 1.5f;
+    [SerializeField] private float runningSpeed = 3.5f;
+    [SerializeField] private float jumpHeight = 1f;
     [SerializeField] private float groundCheckRadius = 0.4f;
     [SerializeField, Range(0f, 0.3f)] float rotationSmoothTime = 0.1f;
     private float rotationSmoothVelocity;

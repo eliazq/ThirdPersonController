@@ -6,7 +6,6 @@ public class ThirdPersonAnimationController : MonoBehaviour
 {
     [SerializeField] ThirdPersonController thirdPersonController;
     [SerializeField] Animator animator;
-    [SerializeField] private float blendTreeSmoothTime = 0.1f;
 
     private const string isWalking = "IsWalking";
     private const string isRunning = "IsRunning";
