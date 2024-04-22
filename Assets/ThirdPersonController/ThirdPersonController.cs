@@ -138,7 +138,9 @@ public class ThirdPersonController : MonoBehaviour
             characterController.Move(lastMoveDirection * lastMovementSpeed * Time.deltaTime);
         }
 
+
         jumpTimer += Time.deltaTime;
+
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded && jumpTimer >= jumpCooldown)
         {
